@@ -4,5 +4,5 @@ export default {
   title: "HocTot"
 };
 
-export const profilePage = () => profile;
 export const listComponents = () => components;
+export const profilePage = () => profile;

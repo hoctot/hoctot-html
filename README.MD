@@ -3,6 +3,7 @@
 ## Design resource
 
 - [Figma](https://www.figma.com/file/7j6ZYahruXbwSSJ3CQvZzn/HocTot-MVP-Design-2K20?node-id=38%3A64)
+- Preview: [https://hoctot-html.surge.sh/](https://hoctot-html.surge.sh/)
 
 ## Run project
 
