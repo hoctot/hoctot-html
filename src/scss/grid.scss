@@ -1,0 +1,12 @@
+.ht-container {
+  max-width: $xl;
+  margin: 0 auto;
+  @include onScreen(xl) {
+  }
+  @include onScreen(md) {
+  }
+  @include onScreen(sm) {
+  }
+  @include onScreen(xs) {
+  }
+}

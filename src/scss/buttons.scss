@@ -1,0 +1,78 @@
+.ht-button {
+  background: $button-color;
+  color: #fafafa;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 1.8rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+
+  &:active {
+    transform: scale(0.95);
+  }
+  &:hover {
+    text-decoration: underline;
+  }
+  &:disabled {
+    background: #828282;
+    cursor: not-allowed;
+  }
+  &[loading] {
+    cursor: default;
+    opacity: 0.75;
+    &:active {
+      transform: scale(1);
+    }
+    padding-right: 4rem;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0.8rem;
+      right: 1rem;
+      border: 0.25rem dashed;
+      border-radius: 50%;
+      width: 1.5rem;
+      height: 1.5rem;
+      animation: spin 1s linear infinite;
+    }
+  }
+
+  &[delete] {
+    background: white;
+    color: #eb5757;
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+}
+
+.ht-button-text {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+  color: #4f4f4f;
+  &:hover {
+    text-decoration: underline;
+  }
+  &:active {
+    transform: scale(0.95);
+  }
+
+  &.ht-is-delete {
+    color: #eb5757;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

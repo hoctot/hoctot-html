@@ -1,0 +1,64 @@
+.ht-input {
+  appearance: none;
+  border: none;
+  border-bottom: 1px solid #828282;
+  padding: 1rem;
+  outline: none;
+  font-size: 1.6rem;
+}
+
+.ht-textarea {
+  appearance: none;
+  padding: 1rem;
+  outline: none;
+  font-size: 1.6rem;
+  border: 1px solid #828282;
+  border-radius: 9px;
+}
+
+.ht-select {
+  padding: 1rem;
+  border-radius: 9px;
+  appearance: none;
+  outline: none;
+  border: 1px solid #828282;
+}
+
+.ht-checkbox {
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    &:checked + .checkmark {
+      background: #4f4f4f;
+      &::after {
+        content: "";
+        position: absolute;
+        left: 9px;
+        top: 4px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        transform: rotate(45deg);
+      }
+    }
+  }
+  .checkmark {
+    position: relative;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background: white;
+    border: 1px solid #4f4f4f;
+  }
+}

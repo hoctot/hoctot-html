@@ -1,0 +1,25 @@
+{
+  "name": "hoctot-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -s ./src/html -p 6006",
+    "scss": "sass --watch src/scss/index.scss src/css/index.css",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.24.0",
+    "sass-loader": "^8.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@storybook/html": "^5.2.8",
+    "babel-loader": "^8.0.6"
+  }
+}
