@@ -1,0 +1,188 @@
+<div class="ht-container " style="margin-bottom: 10rem">
+  <section>
+    <h1>Buttons</h1>
+    <div>
+      <button class="ht-button">Sign Up</button>
+      <button class="ht-button" disabled>Sign Up</button>
+    </div>
+    <br />
+    <div>
+      <button class="ht-button" loading>Sign Up</button>
+      <button class="ht-button" delete>Xoá phòng</button>
+    </div>
+  </section>
+
+  <section>
+    <h1>Collection card</h1>
+
+    <div class="ht-card-collection">
+      <figure class="ht-card-collection__img-top">
+        <img src="./public/collection.png" />
+      </figure>
+      <div class="ht-card-collection__info">
+        <div class="ht-card-collection__info-left">
+          <figure class="ht-card-collection__img-avatar">
+            <img src="./public/avatar.png" />
+          </figure>
+          <div class="ht-card-collection__info-left-text">
+            <h1>Địa lý</h1>
+            <h2>Các câu hỏi về địa lý asdasd</h2>
+          </div>
+        </div>
+        <button class="ht-button">Tạo phòng</button>
+      </div>
+    </div>
+
+    <br />
+    <h1>Room Card</h1>
+
+    <div class="ht-card-collection">
+      <figure class="ht-card-collection__img-top">
+        <img src="./public/room.png" />
+      </figure>
+      <div class="ht-card-collection__info">
+        <div class="ht-card-collection__info-left">
+          <figure class="ht-card-collection__img-avatar">
+            <img src="./public/avatar.png" />
+          </figure>
+          <div class="ht-card-collection__info-left-text">
+            <h1>Phòng ABC</h1>
+            <h2>Cần bạn tham gia ^.^</h2>
+          </div>
+        </div>
+        <button class="ht-button">Thi đấu</button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h1>Score leader board</h1>
+
+    <div class="ht-user-leaderboard">
+      <figure class="ht-user-leaderboard__avatar is-online">
+        <img src="./public/user.png" />
+      </figure>
+      <div class="ht-user-leaderboard__info">
+        <p class="ht-user-leaderboard__info-name">
+          Sơn Tùng MTPs asdasd asdassssssssssssssssssssssssssssssssss
+        </p>
+        <p class="ht-user-leaderboard__info-score">10 Điểm</p>
+      </div>
+    </div>
+
+    <div class="ht-user-leaderboard">
+      <figure class="ht-user-leaderboard__avatar is-online">
+        <img src="./public/user.png" />
+      </figure>
+      <div class="ht-user-leaderboard__info">
+        <p class="ht-user-leaderboard__info-name">
+          Sơn Tùng MTPs asdasd asdassssssssssssssssssssssssssssssssss
+        </p>
+        <p class="ht-user-leaderboard__info-score">10 Điểm</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h1>Input</h1>
+    <div>
+      <input class="ht-input" type="text" placeholder="..." />
+      <input class="ht-input input-number" type="number" value="0" />
+    </div>
+    <br />
+    <h2>Text area</h2>
+    <div>
+      <textarea
+        placeholder="..."
+        class="ht-textarea"
+        cols="30"
+        rows="2"
+      ></textarea>
+    </div>
+    <h2>Select</h2>
+    <div>
+      <select class="ht-select" name="select">
+        <option value="1">Tuỳ chọn 1</option>
+        <option value="2">Tuỳ chọn 2</option>
+        <option value="3">Tuỳ chọn 3</option>
+      </select>
+    </div>
+    <h2>
+      Checkbox
+    </h2>
+    <div>
+      <label class="ht-checkbox" for="a">
+        <input type="checkbox" id="a" />
+        <span class="checkmark"></span>
+      </label>
+    </div>
+  </section>
+
+  <section>
+    <h1>Question Card</h1>
+
+    <section class="ht-question-card">
+      <aside class="ht-question-card__menu">
+        <a href="javascript:void(0)"><img src="./public/threedot.png"/></a>
+      </aside>
+      <ul class="ht-question-card__menulist ht-is-open">
+        <li><button class="ht-button-text">Chỉnh sửa</button></li>
+        <li><button class="ht-button-text ht-is-delete">Xoá</button></li>
+      </ul>
+      <p>Câu hỏi</p>
+      <div class="ht-question-card__content">
+        <div class="ht-fakecontent"></div>
+      </div>
+      <p>Câu trả lời</p>
+      <div class="ht-question-card__content">
+        <div class="ht-fakecontent"></div>
+      </div>
+      <div class="ht-text-center">
+        <button class="ht-button-text">Xem thêm</button>
+      </div>
+    </section>
+  </section>
+
+  <section>
+    <h1>Popup</h1>
+
+    <section class="ht-popup-main">
+        <aside class="ht-popup-main__menu">
+            <ul>
+              <li><button class="ht-button-text">Chỉnh sửa</button></li>
+              <li><button class="ht-button-text">Xoá</button></li>
+            </ul>
+          </aside>
+          <aside class="ht-popup-main__grab"></aside>
+          <aside class="ht-popup-main__close">
+            <i class="material-icons">close</i>
+          </aside>
+
+      <div class="ht-popup-main__content">
+
+        <h1 class="ht-text-center">Title</h1>
+        <section class="ht-question-card">
+            <aside class="ht-question-card__menu">
+              <a href="javascript:void(0)"><img src="./public/threedot.png"/></a>
+            </aside>
+            <ul class="ht-question-card__menulist ht-is-open">
+              <li><button class="ht-button-text">Chỉnh sửa</button></li>
+              <li><button class="ht-button-text ht-is-delete">Xoá</button></li>
+            </ul>
+            <p>Câu hỏi</p>
+            <div class="ht-question-card__content">
+              <div class="ht-fakecontent"></div>
+            </div>
+            <p>Câu trả lời</p>
+            <div class="ht-question-card__content">
+              <div class="ht-fakecontent"></div>
+            </div>
+            <div class="ht-text-center">
+              <button class="ht-button-text">Xem thêm</button>
+            </div>
+          </section>
+
+      </div>
+    </section>
+  </section>
+</divc>
