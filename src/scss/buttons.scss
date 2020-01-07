@@ -10,6 +10,7 @@
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   position: relative;
+  appearance: none;
 
   &:active {
     transform: scale(0.95);

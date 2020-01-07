@@ -51,8 +51,16 @@
     top: 0.5rem;
     right: 0.5rem;
     cursor: pointer;
-
+    user-select: none;
+    border: none;
+    background: white;
     border-radius: 50%;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    &:active {
+      transform: scale(0.95);
+    }
     i {
       color: #bdbdbd;
       &:hover {
